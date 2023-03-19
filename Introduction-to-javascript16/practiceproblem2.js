@@ -1,0 +1,10 @@
+var math = 25.25;
+var bio = 65;
+var chem = 80;
+var phy = 35.45;
+var Bangla = 99.50;
+var vag = 5;
+var total=math+bio+chem+phy+Bangla;
+var average=total/vag;
+average=average.toFixed(2);
+console.log(average);
